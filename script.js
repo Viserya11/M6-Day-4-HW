@@ -6,3 +6,10 @@ const options = {
     },
 };
 
+let display = async () => {
+    const response = await fetch("https://striveschool-api.herokuapp.com/api/product/", options);
+    const parsedBody = await response.json();
+    console.log(parsedBody)
+}
+
+display()
