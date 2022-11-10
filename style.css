@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 100%;
 }
 
 .content {
@@ -14,4 +15,17 @@ h1 {
 
 .card {
     margin-top: 50px;
+    max-width: 300px;
+    width: 300px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
